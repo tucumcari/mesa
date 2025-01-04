@@ -1,0 +1,27 @@
+[book]
+authors = ["tucumcari"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Tucumcari's Mesa"
+
+[rust]
+edition = "2021"
+
+[build]
+build-dir = "site"
+
+[output.html]
+theme = "theme"
+default-theme = "light"
+preferred-dark-theme = "navy"
+no-section-label = true
+git-repository-url = "https://github.com/tucumcari/mesa"
+
+[output.html.playground]
+copyable = false
+
+[output.html.print]
+enable = false
+
+
