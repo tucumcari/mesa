@@ -14,6 +14,6 @@ npm install
 ### Usage
 
 ```shell
-./mdbook watch
+./mdbook serve
 # edit, commit, push
 ```
