@@ -1,0 +1,24 @@
+name: build
+
+on:
+    workflow_dispatch:
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+        steps:        
+        - uses: actions/checkout@v4
+
+        - name: rust install
+          uses: actions-rust-lang/setup-rust-toolchain@v1
+
+        - name: mdbooking
+          run: |
+            cargo install mdbook
+            mdbook build
+
+        - name: deploy
+          uses: peaceiris/actions-gh-pages@v4
+          with:
+            github_token: ${{ secrets.GITHUB_TOKEN }}
+            publish_dir: ./site

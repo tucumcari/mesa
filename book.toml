@@ -23,5 +23,3 @@ copyable = false
 
 [output.html.print]
 enable = false
-
-
