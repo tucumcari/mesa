@@ -1,4 +1,4 @@
-# Synology NAS hosted CI/CD for GPUs runners
+# Synology NAS hosted CI/CD for GPU runners
 
 > TLDR; Gitea was a good choice for me, maybe it would be for you too.
 

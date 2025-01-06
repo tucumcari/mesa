@@ -3,4 +3,4 @@
 - [About](README.md)
 
 - [2025]()
-    - [CI/CD with GPUs on Gitea Actions](./2025/gitea_actions.md)
+    - [Synology NAS hosted CI/CD for GPU runners](./2025/gitea_actions.md)
