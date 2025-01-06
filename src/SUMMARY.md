@@ -1,6 +1,6 @@
 # Summary
 
-- [Home](README.md)
+- [About](README.md)
 
 - [2025]()
-    - [Chapter 1](./2025/chapter_1.md)
+    - [CI/CD with GPUs on Gitea Actions](./2025/gitea_actions.md)
